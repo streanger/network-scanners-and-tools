@@ -9,7 +9,7 @@ def your_ip():
     
 def arp_scanner(_interface):
     locals = []
-    _range = "172.31.98.1/24"
+    _range = "192.168.2.1/24"
     ip, ntBits = _range.split('/')
     ip_addresses = []
     st_bit = ip.split('.')[3:4][0]   #Since it's an IPv4
